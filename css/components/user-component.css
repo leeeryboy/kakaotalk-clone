@@ -51,3 +51,7 @@
 .user-component {
   margin-bottom: 20px;
 }
+
+.user-component__description i {
+  color: #ff887b;
+}
