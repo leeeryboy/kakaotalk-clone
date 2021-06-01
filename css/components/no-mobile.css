@@ -17,13 +17,13 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 450px) and {
+@media screen and (max-width: 450px) {
   #too-big {
     display: none;
   }
 }
 
-@media screen and (min-width: 330px) and {
+@media screen and (min-width: 330px) {
   #too-small {
     display: none;
   }
