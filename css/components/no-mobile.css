@@ -1,0 +1,30 @@
+#too-big,
+#too-small {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#too-small {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 450px) and {
+  #too-big {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 330px) and {
+  #too-small {
+    display: none;
+  }
+}
